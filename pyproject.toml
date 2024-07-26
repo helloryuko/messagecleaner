@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "messageremover"
+version = "1.0.0"
+description = "a cute and fast script to delete messages from multiple chats"
+authors = ["Ryuko <ryuko@inbox.lv>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Telethon = "^1.36.0"
+rich = "^13.7.1"
+msgspec = "^0.18.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

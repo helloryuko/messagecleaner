@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "a cute and fast script to delete messages from multiple chats"
 authors = ["Ryuko <ryuko@inbox.lv>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.8"
